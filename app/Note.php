@@ -6,7 +6,7 @@ class Note extends Model
     /**
      * Get the author that this book belongs to
      */
-    public function notes()
+    public function rooms()
     {
         return $this->belongsTo('\App\Room');
     }

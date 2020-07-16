@@ -4,7 +4,7 @@ use Illuminate\Database\Eloquent\Model;
 class Room extends Model
 {
    
-    public function rooms()
+    public function notes()
     {
         return $this->hasMany('\App\Note');
     }
